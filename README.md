@@ -5,6 +5,7 @@ Script to run offlineimap only when network connection is present. This script
 circumvents same problems with offlineimap, like offlineimap giving up syncing
 when connection lost. This script also saves your CPU cycles.
 
+
 requirements
 ------------
 
@@ -12,10 +13,12 @@ requirements
 * Network Manager
 * offlineimap configured to run as daemon, i.e.
 
+
 	[Account personal]
 	autorefresh = 5
 	quick = 10
 	...
+
 
 usage
 -----
